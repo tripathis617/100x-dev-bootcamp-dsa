@@ -1,0 +1,543 @@
+Codeforces
+In English По-русски
+
+
+Introduction to Java
+A. Hello World
+time limit per test1 second
+memory limit per test256 megabytes
+Your task is to print the string Hello World.
+
+Input
+There is no input for this problem.
+
+Output
+Print exactly:
+
+
+Hello World
+Example
+InputCopy
+There is no input.
+OutputCopy
+Hello World
+
+B. Print First 5 Alphabets
+time limit per test1 second
+memory limit per test256 megabytes
+Your task is to print the first five letters of the English alphabet.
+
+Input
+There is no input for this problem.
+
+Output
+Print the first five uppercase English letters, one per line.
+
+Example
+InputCopy
+There is no input.
+OutputCopy
+A
+B
+C
+D
+E
+
+C. Triangle
+time limit per test1 second
+memory limit per test256 megabytes
+Your task is to print a right-angled triangle pattern using asterisks (*).
+
+Input
+There is no input for this problem.
+
+Output
+Print the following pattern exactly as shown:
+
+
+*****
+****
+***
+**
+*
+Example
+InputCopy
+There is no input.
+OutputCopy
+*****
+****
+***
+**
+*
+
+D. Print Z
+time limit per test1 second
+memory limit per test256 megabytes
+Your task is to print the letter Z using asterisks (*) as shown below.
+
+Input
+There is no input for this problem.
+
+Output
+Print the following pattern exactly as shown:
+
+
+*****
+   *
+  *
+ *
+*****
+Example
+InputCopy
+There is no input.
+OutputCopy
+*****
+   *
+  *
+ *
+*****
+
+E. Print Table of 5
+time limit per test1 second
+memory limit per test256 megabytes
+Your task is to print the multiplication table of the 5.
+
+Input
+There is no input for this problem.
+
+Output
+Print the table of 5 in the format as shown in the example.
+
+Example
+InputCopy
+There is no input.
+OutputCopy
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+F. Rectangle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given the length and breadth of a rectangle. Your task is to calculate its area and perimeter.
+
+The formulas are:
+
+Area =
+ length ×
+ breadth
+Perimeter =
+ 2×(length+breadth)
+Input
+A single line containing two integers length and breadth (1≤length,breadth≤1000)
+.
+
+Output
+You are given the length and breadth of a rectangle. Your task is to calculate its area and perimeter.
+
+The formulas are:
+
+Area =
+ length ×
+ breadth
+Perimeter =
+ 2×(length+breadth)
+Example
+InputCopy
+5 7
+OutputCopy
+Area = 35
+Perimeter = 24
+
+G. Print Table of N
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+. Your task is to print the multiplication table of N
+ from 1
+ to 10
+.
+
+Input
+A single integer N
+ (1≤N≤100)
+.
+
+Output
+Print the table of N
+ in the format shown in the example below.
+
+Example
+InputCopy
+6
+OutputCopy
+6 * 1 = 6
+6 * 2 = 12
+6 * 3 = 18
+6 * 4 = 24
+6 * 5 = 30
+6 * 6 = 36
+6 * 7 = 42
+6 * 8 = 48
+6 * 9 = 54
+6 * 10 = 60
+
+H1. Calculator
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers N
+ and M
+. Your task is to compute and print the results of the following operations:
+
+N+M
+N−M
+N×M
+N÷M
+ (integer division)
+NmodM
+Input
+A single line containing two integers N
+ and M
+ (1≤N,M≤1000)
+.
+
+Output
+Print five lines in the format as shown in the example.
+
+Example
+InputCopy
+6 4
+OutputCopy
+6 + 4 = 10
+6 - 4 = 2
+6 * 4 = 24
+6 / 4 = 1
+6 % 4 = 2
+
+H2. Calculator - II
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers N
+ and M
+. Your task is to compute and print the results of the following operations:
+
+N+M
+N−M
+N×M
+N÷M
+ (integer division)
+NmodM
+Input
+Two integers N
+ and M
+, each given on a separate line (1≤N,M≤109)
+.
+
+Output
+Print five results in the following format as shown in the example.
+
+Example
+InputCopy
+1000000000
+1000000000
+OutputCopy
+1000000000 + 1000000000 = 2000000000
+
+1000000000 - 1000000000 = 0
+
+1000000000 * 1000000000 = 1000000000000000000
+
+1000000000 / 1000000000 = 1
+
+1000000000 % 1000000000 = 0
+
+I. Add Last Digits
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers N
+ and M
+. Your task is to find the sum of the last digits of N
+ and M
+.
+
+Input
+A single line containing two integers N
+ and M
+ (1≤N,M≤1000)
+.
+
+Output
+Print a single integer — the sum of the last digits of N
+ and M
+.
+
+Example
+InputCopy
+169 125
+OutputCopy
+14
+
+J. Even or Odd
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+. Your task is to determine whether the number is even or odd.
+
+Input
+A single integer N
+ (1≤N≤109)
+.
+
+Output
+Even if N
+ is even
+Odd if N
+ is odd
+Examples
+InputCopy
+20
+OutputCopy
+Even
+InputCopy
+3
+OutputCopy
+Odd
+
+K. Factor
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers N
+ and F
+. Your task is to check whether F
+ is a factor of N
+.
+
+A number F
+ is said to be a factor of N
+ if N
+ is divisible by F
+.
+
+Input
+A single line containing two integers N
+ and F
+ (1≤N,F≤109)
+.
+
+Output
+Print:
+
+Yes if F
+ is a factor of N
+No otherwise
+Example
+InputCopy
+36 6
+OutputCopy
+Yes
+
+L. Multiple
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers N
+ and M
+. Your task is to check whether M
+ is a multiple of N
+.
+
+A number M
+ is said to be a multiple of N
+ if M
+ is divisible by N
+.
+
+Input
+A single line containing two integers N
+ and M
+ (1≤N,M≤109)
+.
+
+Output
+Print:
+
+Yes if M
+ is a multiple of N
+No otherwise
+Example
+InputCopy
+6 36
+OutputCopy
+Yes
+
+M. Pass or Fail
+time limit per test1 second
+memory limit per test256 megabytes
+You are given the marks obtained by a student. Your task is to check whether the student has passed or failed.
+
+A student is considered to have passed if the marks obtained are at least 35
+.
+
+Input
+A single integer marks (0≤marks≤100)
+.
+
+Output
+Print:
+
+Pass if the student has passed
+Fail otherwise
+Examples
+InputCopy
+36
+OutputCopy
+Pass
+InputCopy
+20
+OutputCopy
+Fail
+
+N. Max and Min of 2 Numbers
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers A
+ and B
+. Your task is to find the minimum and maximum among them.
+
+Input
+A single line containing two integers A
+ and B
+ (1≤A,B≤109)
+.
+
+Output
+Print two lines:
+
+Min = X
+Max = Y
+where X
+ is the minimum value and Y
+ is the maximum value.
+
+Example
+InputCopy
+12 9
+OutputCopy
+Min = 9
+Max = 12
+
+O. Max and Min of 3 Numbers
+time limit per test1 second
+memory limit per test256 megabytes
+You are given three integers A
+, B
+, and C
+. Your task is to find the minimum and maximum among them.
+
+Input
+A single line containing three integers A
+, B
+, and C
+ (1≤A,B,C≤109)
+.
+
+Output
+Print two lines:
+
+Min = X
+Max = Y
+where X
+ is the minimum value and Y
+ is the maximum value.
+
+Example
+InputCopy
+12 9 15
+OutputCopy
+Min = 9
+Max = 15
+
+P. Student Performance Evaluation
+time limit per test1 second
+memory limit per test256 megabytes
+You are given the marks obtained by a student. Based on the marks, display an appropriate performance message according to the following rules:
+
+If marks are greater than 90
+, print Excellent
+Else if marks are greater than 80
+ and less than or equal to 90
+, print Good
+Else if marks are greater than 70
+ and less than or equal to 80
+, print Fair
+Else if marks are greater than 60
+ and less than or equal to 70
+, print Meets Expectations
+Else (marks less than or equal to 60
+), print Below Par
+Input
+A single integer marks (0≤marks≤100)
+.
+
+Output
+Print a single line containing the performance message corresponding to the given marks.
+
+Examples
+InputCopy
+85
+OutputCopy
+Good
+InputCopy
+99
+OutputCopy
+Excellent
+
+Q. Find the location point
+time limit per test1 second
+memory limit per test256 megabytes
+You are given the coordinates of a point (X,Y)
+ on a Cartesian plane. Your task is to determine the location of the point.
+
+The possible locations are:
+
+Origin — if X=0
+ and Y=0
+X axis — if Y=0
+ and X≠0
+Y axis — if X=0
+ and Y≠0
+1st Quadrant — if X>0
+ and Y>0
+2nd Quadrant — if X<0
+ and Y>0
+3rd Quadrant — if X<0
+ and Y<0
+4th Quadrant — if X>0
+ and Y<0
+Input
+A single line containing two integers X
+ and Y
+ (−109≤X,Y≤109)
+.
+
+Output
+Print a single line indicating the location of the point.
+
+Examples
+InputCopy
+1 10
+OutputCopy
+1st Quadrant
+InputCopy
+0 0
+OutputCopy
+Origin
+
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform

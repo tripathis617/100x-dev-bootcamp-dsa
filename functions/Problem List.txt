@@ -1,0 +1,280 @@
+Codeforces
+In English По-русски
+
+
+Functions
+A. Hello Functions
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Write a function that takes N
+ as a parameter and prints the string I am learning functions exactly N
+ times, each on a new line.
+
+Input
+The only line contains an integer N
+ (1≤N≤1000
+).
+
+Output
+Print N
+ lines. Each line must be exactly:
+
+I am learning functions
+Example
+InputCopy
+3
+OutputCopy
+I am learning functions
+I am learning functions
+I am learning functions
+
+B. Print Factors - I
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Write a function that prints all factors∗
+ of N
+ in increasing order.
+
+∗
+A positive integer d
+ is called a divisor (factor) of N
+ if Nmodd=0
+.
+
+Input
+The only line contains an integer N
+ (1≤N≤105
+).
+
+Output
+Print all factors of N
+ in increasing order, separated by single spaces.
+
+Example
+InputCopy
+12
+OutputCopy
+1 2 3 4 6 12
+
+C. Print Factors - II
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Write a function that prints all factors∗
+ of N
+ in decreasing order.
+
+∗
+A positive integer d
+ is called a divisor (factor) of N
+ if Nmodd=0
+.
+
+Input
+The only line contains an integer N
+ (1≤N≤105
+).
+
+Output
+Print all factors of N
+ in decreasing order, separated by single spaces.
+
+Example
+InputCopy
+12
+OutputCopy
+12 6 4 3 2 1
+
+D. Check Prime
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Write a function that checks whether N
+ is a prime number.
+
+Print Prime if N
+ is prime, otherwise print Not Prime.
+
+Input
+The only line contains an integer N
+ (1≤N≤105
+).
+
+Output
+Print Prime or Not Prime.
+
+Examples
+InputCopy
+17
+OutputCopy
+Prime
+InputCopy
+4
+OutputCopy
+Not Prime
+
+E. Factorial
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Find the factorial of N
+ by writing a function that takes N
+ as a parameter and returns N!
+, where:
+N!=1×2×3×⋯×N
+
+Input
+The first line contains an integer N
+ (0≤N≤20
+).
+
+Output
+Print the value of N!
+.
+
+Examples
+InputCopy
+5
+OutputCopy
+120
+InputCopy
+7
+OutputCopy
+5040
+Note
+By definition, 0!=1
+.
+The constraint N≤20
+ ensures the answer fits in a 64-bit integer.
+
+F. nCr
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers n
+ and r
+.
+
+Write a function to compute the binomial coefficient:
+(nr)=n!r!(n−r)!
+
+Input
+The only line contains two integers n
+ and r
+ (0≤r≤n≤10
+).
+
+Output
+Print the value of (nr)
+.
+
+Examples
+InputCopy
+5 2
+OutputCopy
+10
+InputCopy
+10 0
+OutputCopy
+1
+
+G. Print Primes from 1 to N
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Print all prime numbers from 1
+ to N
+ in increasing order by writing a function that takes N
+ as a parameter and prints the required primes.
+
+Input
+The only line contains an integer N
+ (1≤N≤103
+).
+
+Output
+Print all prime numbers from 1
+ to N
+ in increasing order, separated by single spaces.
+
+If there is no prime number in the range, print nothing.
+
+Example
+InputCopy
+10
+OutputCopy
+2 3 5 7
+
+H. Count Zeros
+time limit per test1 s.
+memory limit per test256 MB
+You are given a non-negative integer N
+.
+
+Find the number of digits equal to 0 in the decimal representation of N
+ by writing a function that takes N
+ as a parameter and returns the count of zero digits.
+
+Input
+The only line contains an integer N
+ (0≤N≤1018
+).
+
+Output
+Print a single integer — the count of zeros in N
+.
+
+Examples
+InputCopy
+102030
+OutputCopy
+3
+InputCopy
+0
+OutputCopy
+1
+I. Find HCF
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers A
+ and B
+.
+
+Find the HCF of A
+ and B
+ by writing a function that takes A
+ and B
+ as parameters and returns their HCF.
+
+Input
+The only line contains two integers A
+ and B
+ (1≤A,B≤105
+).
+
+Output
+Print the HCF of A
+ and B
+.
+
+Example
+InputCopy
+12 36
+OutputCopy
+12
+
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform

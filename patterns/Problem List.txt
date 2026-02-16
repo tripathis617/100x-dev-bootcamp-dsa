@@ -1,0 +1,748 @@
+Codeforces
+In English По-русски
+
+
+Pattern Printing
+A. 2-Stars
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a pattern consisting of n
+ rows, where each row contains exactly two stars ('**').
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅105)
+.
+
+Output
+Print n
+ lines. Each line must contain exactly two stars ('**').
+
+Examples
+InputCopy
+5
+OutputCopy
+**
+**
+**
+**
+**
+InputCopy
+3
+OutputCopy
+**
+**
+**
+
+B. M-Stars
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers n
+ and m
+. Your task is to print a rectangle pattern consisting of n
+ rows and m
+ columns, where each cell contains a star '*'.
+
+Input
+The only line contains two integers n
+ and m
+ (1≤n,m≤200
+).
+
+Output
+Print the pattern.
+
+Examples
+InputCopy
+5 6
+OutputCopy
+******
+******
+******
+******
+******
+InputCopy
+3 5
+OutputCopy
+*****
+*****
+*****
+
+C. Square
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print an n×n
+ square of stars.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example.
+
+Examples
+InputCopy
+5
+OutputCopy
+*****
+*****
+*****
+*****
+*****
+InputCopy
+2
+OutputCopy
+**
+**
+
+D. Hollow Square
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a hollow square pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example.
+
+Examples
+InputCopy
+6
+OutputCopy
+******
+*    *
+*    *
+*    *
+*    *
+******
+InputCopy
+2
+OutputCopy
+**
+**
+InputCopy
+8
+OutputCopy
+********
+*      *
+*      *
+*      *
+*      *
+*      *
+*      *
+********
+
+E. Hollow Rectangle
+time limit per test1 second
+memory limit per test256 megabytes
+Given two integers n
+ and m
+, print a hollow rectangle of dimensions n×m
+.
+
+Input
+The only line contains two integers n
+ and m
+ (1≤n,m≤100
+).
+
+Output
+Print the pattern.
+
+Examples
+InputCopy
+5 5
+OutputCopy
+*****
+*   *
+*   *
+*   *
+*****
+InputCopy
+6 9
+OutputCopy
+*********
+*       *
+*       *
+*       *
+*       *
+*********
+
+F. Pyramid
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a pyramid pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example.
+
+Examples
+InputCopy
+5
+OutputCopy
+*
+**
+***
+****
+*****
+InputCopy
+6
+OutputCopy
+*
+**
+***
+****
+*****
+******
+InputCopy
+7
+OutputCopy
+*
+**
+***
+****
+*****
+******
+*******
+
+G. Inverse Pyramid
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print an inverse pyramid pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example
+
+Examples
+InputCopy
+3
+OutputCopy
+***
+**
+*
+InputCopy
+5
+OutputCopy
+*****
+****
+***
+**
+*
+InputCopy
+8
+OutputCopy
+********
+*******
+******
+*****
+****
+***
+**
+*
+
+H. Numbered Traingle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a pyramid of n
+ rows, where the i
+-th row (1≤i≤n
+) consists of the digit i
+.
+
+Input
+The input contains a single integer n
+ (1≤n≤200
+).
+
+Output
+Print the numbered pyramid with n
+ rows.
+
+Examples
+InputCopy
+5
+OutputCopy
+1
+22
+333
+4444
+55555
+InputCopy
+6
+OutputCopy
+1
+22
+333
+4444
+55555
+666666
+
+I. Binary Pyramid
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a pyramid of n
+ rows. The first row contains a single '0'. From the second row onward, the digits alternate between '1' and '0'.
+
+Input
+The input contains a single integer n
+ (1≤n≤200
+).
+
+Output
+Print the binary pyramid with n
+ rows.
+
+Examples
+InputCopy
+6
+OutputCopy
+0
+10
+010
+1010
+01010
+101010
+InputCopy
+2
+OutputCopy
+0
+10
+
+J. Vertical Traingle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a triangle of 2n−1
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤200
+).
+
+Output
+Print the vertical triangle of stars, as shown in the example.
+
+Examples
+InputCopy
+4
+OutputCopy
+* 
+* * 
+* * * 
+* * * * 
+* * * 
+* * 
+* 
+InputCopy
+7
+OutputCopy
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+* * * * * * * 
+* * * * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+K. Hollow Vertical Triangle
+time limit per test1 s.
+memory limit per test256 MB
+You are given a positive integer n
+.
+
+Print a hollow triangle of 2n−1
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤200
+).
+
+Output
+Print the inverted vertical triangle of stars, as shown in the example.
+
+Examples
+InputCopy
+5
+OutputCopy
+* 
+* * 
+*   * 
+*     * 
+*       * 
+*     * 
+*   * 
+* * 
+* 
+InputCopy
+3
+OutputCopy
+* 
+* * 
+*   * 
+* * 
+* 
+L. Triangle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a triangle pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example.
+
+Examples
+InputCopy
+5
+OutputCopy
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+InputCopy
+3
+OutputCopy
+  *
+ * *
+* * *
+
+M. Hollow Triangle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a hollow triangle pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example.
+
+Examples
+InputCopy
+6
+OutputCopy
+     * 
+    * * 
+   *   * 
+  *     * 
+ *       * 
+* * * * * * 
+InputCopy
+4
+OutputCopy
+   * 
+  * * 
+ *   * 
+* * * * 
+
+N. Inverted Hollow Triangle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a inverted hollow triangle pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅103)
+.
+
+Output
+Print n
+ lines, as given in the example.
+
+Examples
+InputCopy
+7
+OutputCopy
+* * * * * * * 
+ *         * 
+  *       * 
+   *     * 
+    *   * 
+     * * 
+      * 
+InputCopy
+3
+OutputCopy
+* * * 
+ * * 
+  * 
+
+O. Diamond
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a diamond pattern consisting of 2n−1
+ rows. The first n
+ rows form the upper triangle. The next n−1
+ rows form the lower triangle.
+
+Input
+The input contains a single integer n
+ (1≤n≤200)
+.
+
+Output
+Print the diamond consisting of 2n−1
+ rows.
+
+Examples
+InputCopy
+3
+OutputCopy
+  * 
+ * * 
+* * * 
+ * * 
+  * 
+InputCopy
+5
+OutputCopy
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+P. Hollow Diamond
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a hollow diamond pattern consisting of 2n−1
+ rows. The first n
+ rows form the upper triangle. The next n−1
+ rows form the lower triangle.
+
+Input
+The input contains a single integer n
+ (1≤n≤200)
+.
+
+Output
+Print the hollow diamond consisting of 2n−1
+ rows.
+
+Examples
+InputCopy
+3
+OutputCopy
+  * 
+ * * 
+*   * 
+ * * 
+  * 
+InputCopy
+5
+OutputCopy
+    * 
+   * * 
+  *   * 
+ *     * 
+*       * 
+ *     * 
+  *   * 
+   * * 
+    * 
+
+Q. Crown
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a crown pattern consisting of n
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤200)
+.
+
+Output
+Print the pattern, as given in the example.
+
+Examples
+InputCopy
+7
+OutputCopy
+*            *
+**          **
+***        ***
+****      ****
+*****    *****
+******  ******
+**************
+InputCopy
+4
+OutputCopy
+*      *
+**    **
+***  ***
+********
+
+R. Butterfly
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a butterfly pattern consisting of 2n−1
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤200)
+.
+
+Output
+Print the pattern, as given in the example.
+
+Examples
+InputCopy
+6
+OutputCopy
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+InputCopy
+4
+OutputCopy
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+
+S. Inverted Diamond
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print a inverted diamond pattern consisting of 2n−1
+ rows.
+
+Input
+The input contains a single integer n
+ (1≤n≤200)
+.
+
+Output
+Print the pattern, as given in the example.
+
+Examples
+InputCopy
+5
+OutputCopy
+***** *****
+****   ****
+***     ***
+**       **
+*         *
+**       **
+***     ***
+****   ****
+***** *****
+
+InputCopy
+3
+OutputCopy
+*** ***
+**   **
+*     *
+**   **
+*** ***
+
+
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform

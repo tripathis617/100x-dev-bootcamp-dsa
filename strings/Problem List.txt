@@ -1,0 +1,476 @@
+Codeforces
+In English По-русски
+
+
+Strings
+A. Char to ASCII
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a single character c
+.
+
+Print the ASCII value of c
+.
+
+Input
+The input contains a single character c
+.
+
+It is guaranteed that c
+ is a visible ASCII character (its code is between 33
+ and 126
+).
+
+Output
+Print a single integer — the ASCII value of c
+.
+
+Examples
+InputCopy
+A
+OutputCopy
+65
+InputCopy
+0
+OutputCopy
+48
+
+B. ASCII to Character
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer representing the ASCII value of a character.
+
+Your task is to print the corresponding character.
+
+Input
+The only line contains an integer X
+ (33≤X≤126
+).
+
+Output
+Print the character corresponding to the given ASCII value.
+
+Examples
+InputCopy
+65
+OutputCopy
+A
+InputCopy
+97
+OutputCopy
+a
+
+C. Lowercase, Uppercase, Digit or Special
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a single character.
+
+Determine whether it is:
+
+Lowercase
+Uppercase
+Digit
+Special
+Input
+The only line contains a single character c
+.
+
+It is guaranteed that c
+ is a printable ASCII character (33≤
+ ASCII value of c
+ ≤126
+).
+
+Output
+Print exactly one of the following:
+
+Lowercase
+Uppercase
+Digit
+Special
+Examples
+InputCopy
+a
+OutputCopy
+Lowercase
+InputCopy
+Z
+OutputCopy
+Uppercase
+InputCopy
+5
+OutputCopy
+Digit
+InputCopy
+@
+OutputCopy
+Special
+
+D. Convert to Lowercase
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a single English alphabet character.
+
+Your task is to convert it to lowercase.
+
+Input
+The only line contains a single character c
+.
+
+It is guaranteed that c
+ is an English alphabet letter (A≤c≤Z
+ or a≤c≤z
+).
+
+Output
+Print the lowercase version of the given character.
+
+Examples
+InputCopy
+F
+OutputCopy
+f
+InputCopy
+z
+OutputCopy
+z
+
+E. Brothers
+time limit per test1 second
+memory limit per test256 megabytes
+You are given the names of two people.
+
+Each name is given as two words: FirstName LastName.
+
+Determine whether they are brothers.
+
+They are considered brothers if and only if their last names are the same.
+
+Input
+The input consists of two lines.
+
+Each line contains two strings: FirstName and LastName. ' All strings contain only English letters and have length from 1
+ to 100
+.
+
+Output
+Print YES if they are brothers, otherwise print NO.
+
+Examples
+InputCopy
+Ali Hassan
+Omar Hassan
+OutputCopy
+YES
+InputCopy
+Alice Singh
+Bob Kumar
+OutputCopy
+NO
+
+F. Lexicographical Order
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two words A
+ and B
+.
+
+A word A
+ is said to come before B
+ in lexicographical order (dictionary order) if:
+
+at the first position where they differ, A
+ has a smaller character than B
+, or
+A
+ is a prefix of B
+ and A≠B
+.
+Determine which word appears first in the dictionary.
+
+Input
+The first line contains a word A
+.
+
+The second line contains a word B
+.
+
+Both words contain only lowercase English letters and have length from 1
+ to 1000
+.
+
+Output
+Print A if A
+ comes before B
+.
+Print B if B
+ comes before A
+.
+Print Equal if A=B
+.
+Examples
+InputCopy
+apple
+apricot
+OutputCopy
+A
+InputCopy
+same
+same
+OutputCopy
+Equal
+
+G. Replace Character
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a string s
+ consisting of lowercase English letters, and two characters c1
+ and c2
+.
+
+Your task is to replace every occurrence of c1
+ in the string s
+ with c2
+ and print the resulting string.
+
+Input
+The first line contains a non-empty string s
+ (1≤|s|≤106
+). The second line contains two lowercase English letters c1
+ and c2
+, separated by a space.
+
+Output
+Print the required string.
+
+Examples
+InputCopy
+abacaba
+a b
+OutputCopy
+bbbcbbb
+InputCopy
+aaaa
+a c
+OutputCopy
+cccc
+
+H. Remove Character
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a string s
+ consisting of lowercase English letters, and a character x
+.
+
+Your task is to remove all occurrences of x
+ from the string s
+ and print the resulting string.
+
+Input
+The first line contains a string s
+ (1≤|s|≤106
+). The second line contains a single lowercase English letter x
+.
+
+Output
+Print the string obtained after removing all occurrences of x
+ from s
+.
+
+Examples
+InputCopy
+abacaba
+a
+OutputCopy
+bcb
+InputCopy
+aaaa
+a
+OutputCopy
+
+
+I. Trim Spaces
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an input string S
+ that contains multiple words separated by spaces. Your task is to remove all spaces from the string.
+
+There can be multiple spaces between or after words.
+
+Input
+The input consists of a single line containing the string S
+ (1≤|S|≤106)
+.
+
+Output
+Print the string S
+ after removing all spaces.
+
+Examples
+InputCopy
+abc def g hi
+OutputCopy
+abcdefghi
+InputCopy
+hello world
+OutputCopy
+helloworld
+
+J. Toggle Case
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a word S
+ consisting of English letters.
+
+For every character in the word:
+
+if it is lowercase, convert it to uppercase;
+if it is uppercase, convert it to lowercase.
+Input
+The only line contains a word S
+.
+
+It is guaranteed that 1≤|S|≤105
+ and S
+ consists only of English letters.
+
+Output
+Print the resulting word after toggling the case of every character.
+
+Example
+InputCopy
+AbCdE
+OutputCopy
+aBcDe
+
+K. Strong Password
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a password.
+
+A password is considered strong if all of the following conditions are satisfied:
+
+It consists of exactly 10
+ characters.
+It contains at least one lowercase English letter.
+It contains at least one uppercase English letter.
+It contains at least one digit.
+It contains at least one special character.
+Any character that is not a lowercase letter, uppercase letter, or digit is considered a special character.
+
+Input
+The only line contains a string S
+.
+
+It is guaranteed that 1≤|S|≤100
+ and all characters are printable ASCII characters.
+
+Output
+Print Strong if the password is strong. Otherwise, print Weak.
+
+Examples
+InputCopy
+Abcdef1@23
+OutputCopy
+Strong
+InputCopy
+abcd1234
+OutputCopy
+Weak
+
+L. Reverse
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a string S
+ consisting only of lowercase English letters.
+
+Your task is to reverse the string.
+
+Input
+The only line contains a string S
+ (1≤|S|≤1000
+).
+
+It is guaranteed that S
+ consists only of lowercase English letters.
+
+Output
+Print the reversed string.
+
+Examples
+InputCopy
+hello
+OutputCopy
+olleh
+InputCopy
+abcd
+OutputCopy
+dcba
+
+M. Palindrome
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a string S
+ consisting only of lowercase English letters.
+
+A string is called a palindrome if it reads the same from left to right and from right to left.
+
+Determine whether S
+ is a palindrome.
+
+Input
+The only line contains a string S
+ (1≤|S|≤1000
+).
+
+It is guaranteed that S
+ consists only of lowercase English letters.
+
+Output
+Print YES if S
+ is a palindrome, otherwise print NO.
+
+Examples
+InputCopy
+racecar
+OutputCopy
+YES
+InputCopy
+hello
+OutputCopy
+NO
+
+N. Count Words
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a string S
+ consisting of English letters and spaces.
+
+A word is a maximal contiguous sequence of letters.
+
+It is guaranteed that words are separated by exactly one space, and the first character of S
+ is not a space.
+
+Your task is to count the number of words in S
+.
+
+Input
+The only line contains the string S
+.
+
+It is guaranteed that 1≤|S|≤105
+, and S
+ consists only of English letters and spaces.
+
+Output
+Print one integer — the number of words in S
+.
+
+Example
+InputCopy
+hello world this is CP
+OutputCopy
+5
+
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform

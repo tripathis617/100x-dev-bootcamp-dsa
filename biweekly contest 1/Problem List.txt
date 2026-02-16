@@ -1,0 +1,393 @@
+Codeforces
+In English По-русски
+
+
+Biweekly Contest - I
+A. Hello Codeforces
+time limit per test1 s.
+memory limit per test256 MB
+You are given an integer N
+. Print the message Hello Codeforces exactly N
+ times.
+
+Along with the message, also print the line number starting from 1
+.
+
+Each message must be printed on a new line.
+
+Input
+The only line contains an integer N
+ (1≤N≤1000
+).
+
+Output
+Print N
+ lines. The i
+-th line should be:
+
+Hello Codeforces i
+where i
+ starts from 1
+.
+Example
+InputCopy
+3
+OutputCopy
+Hello Codeforces 1
+Hello Codeforces 2
+Hello Codeforces 3
+B. Is Vowel?
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a lowercase English letter.
+
+Your task is to determine whether the given character is a vowel or not.
+
+Vowels are:
+{a,e,i,o,u}
+
+Input
+The only line contains a single lowercase English letter.
+
+Output
+Print YES if the character is a vowel, otherwise print NO.
+
+Examples
+InputCopy
+a
+OutputCopy
+YES
+InputCopy
+b
+OutputCopy
+NO
+
+C. Second Last Digit
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Your task is to print the second last digit of N
+.
+
+Input
+The only line contains an integer N
+ (10≤N≤105
+).
+
+Output
+Print a single digit — the second last digit of N
+.
+
+Examples
+InputCopy
+42
+OutputCopy
+4
+InputCopy
+10
+OutputCopy
+1
+
+D. Leap Year
+time limit per test1 second
+memory limit per test256 megabytes
+To check whether a year is a leap year, follow these rules:
+
+First check if the year is divisible by 100
+. If it is, then it must also be divisible by 400
+ to be a leap year.
+If the year is not divisible by 100
+, then it is a leap year if it is divisible by 4
+.
+You are given a year Y
+. Determine whether it is a leap year or not.
+
+Input
+The only line contains an integer Y
+ (1600≤Y≤9000
+).
+
+Output
+Print Yes if the year is a leap year, otherwise print No.
+
+Examples
+InputCopy
+2000
+OutputCopy
+Yes
+InputCopy
+2004
+OutputCopy
+Yes
+InputCopy
+2100
+OutputCopy
+No
+
+E. Count Good Numbers
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+ and then N
+ integers.
+
+Count how many of these numbers are good.
+
+A number x
+ is said to be good if:
+
+x
+ is a factor of 18
+ (i.e., 18modx=0
+), or
+x
+ is a multiple of 45
+ (i.e., xmod45=0
+).
+Input
+The first line contains an integer N
+ (1≤N≤105
+).
+
+The second line contains N
+ integers x1,x2,…,xN
+ (0≤xi≤109
+).
+
+Output
+Print a single integer: the number of good integers among the N
+ given numbers.
+
+Example
+InputCopy
+8
+1 2 3 4 5 6 9 90
+OutputCopy
+6
+Note
+For x=0
+, it cannot be a factor of 18
+ (division by zero is undefined), but it is a multiple of 45
+ because 0mod45=0
+.
+
+
+F. FizzBuzz
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Print the numbers from 1
+ to N
+ following the rules below:
+
+If the number is divisible by 3
+, print Fizz.
+If the number is divisible by 5
+, print Buzz.
+If the number is divisible by both 3
+ and 5
+, print FizzBuzz.
+Otherwise, print the number itself.
+Each output should be printed on a new line.
+
+Input
+The only line contains an integer N
+ (1≤N≤105
+).
+
+Output
+Print N
+ lines according to the rules above.
+
+Example
+InputCopy
+15
+OutputCopy
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+
+G. Count Zeros
+time limit per test1 s.
+memory limit per test256 MB
+You are given a non-negative integer N
+.
+
+Your task is to find the number of digits equal to 0 in the decimal representation of N
+.
+
+Input
+The only line contains an integer N
+ (0≤N≤1018
+).
+
+Output
+Print a single integer — the count of zeros in N
+.
+
+Examples
+InputCopy
+102030
+OutputCopy
+3
+InputCopy
+0
+OutputCopy
+1
+H. Empty Rectangle
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers N
+ and M
+.
+
+Print a rectangle of N
+ rows and M
+ columns using the character ^ such that:
+
+The border of the rectangle consists of ^ characters.
+The inside of the rectangle consists of spaces.
+Each of the N
+ lines must contain exactly M
+ characters.
+
+Input
+The only line contains two integers N
+ and M
+ (1≤N,M≤1000
+).
+
+Output
+Print the required rectangle.
+
+Examples
+InputCopy
+4 5
+OutputCopy
+^^^^^
+^   ^
+^   ^
+^^^^^
+InputCopy
+1 5
+OutputCopy
+^^^^^
+
+I. Shifted Pyramid
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Print a shifted pyramid of height N
+ as shown in the example using the character x.
+
+Each row must be printed on a new line.
+
+Important: Do not print trailing spaces at the end of lines.
+
+Input
+The only line contains an integer N
+ (1≤N≤26
+).
+
+Output
+Print the required shifted pyramid.
+
+Example
+InputCopy
+5
+OutputCopy
+x
+ xx
+  xxx
+   xxxx
+    xxxxx
+
+J. Hourglass
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Print an hourglass pattern of height 2N−1
+ using the character . (dot).
+
+Dots in the same line must be separated by a single space.
+
+Important: Do not print trailing spaces at the end of lines.
+
+Input
+You are given an integer N
+ (1≤N≤1000
+).
+
+Output
+Print the required pattern.
+
+Example
+InputCopy
+5
+OutputCopy
+. . . . .
+ . . . .
+  . . .
+   . .
+    .
+   . .
+  . . .
+ . . . .
+. . . . .
+
+K. Arrow
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Print an arrow pattern as shown in the example using the character > of height 2N−1
+.
+
+Important: Do not print trailing spaces at the end of lines.
+
+Input
+The only line contains an integer N
+ (1≤N≤100
+).
+
+Output
+Print the required pattern of 2N−1
+ lines.
+
+Example
+InputCopy
+5
+OutputCopy
+>
+ > >
+  >   >
+   >     >
+    >       >
+   >     >
+  >   >
+ > >
+>
+
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform

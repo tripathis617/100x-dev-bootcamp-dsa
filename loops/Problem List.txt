@@ -1,0 +1,421 @@
+Codeforces
+In English По-русски
+
+
+Loops
+A. Print 1 to N
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a positive integer n
+.
+
+Print the integers from 1
+ to n
+ (inclusive), each on a separate line.
+
+Input
+The input contains a single integer n
+ (1≤n≤2⋅105)
+.
+
+Output
+Print n
+ lines. On the i
+-th line, output the integer i
+ (1≤i≤n)
+.
+
+Examples
+InputCopy
+5
+OutputCopy
+1
+2
+3
+4
+5
+InputCopy
+2
+OutputCopy
+1
+2
+
+B. Print N to 1
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+. Print all integers from N
+ to 1
+ in decreasing order.
+
+Input
+Print N
+ integers from N
+ to 1
+, separated by spaces.
+
+Output
+Print N
+ integers from N
+ to 1
+, separated by spaces.
+
+Examples
+InputCopy
+5
+OutputCopy
+5 4 3 2 1
+InputCopy
+4
+OutputCopy
+4 3 2 1
+
+C. Print All Even Numbers from 1 to N
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+. Print all even numbers between 1
+ and N
+ (inclusive) in increasing order.
+
+Input
+The first line contains an integer N
+ (1≤N≤105
+).
+
+Output
+Print all even numbers between 1
+ and N
+, separated by spaces.
+
+If there is no even number in the given range, print nothing.
+
+Example
+InputCopy
+10
+OutputCopy
+2 4 6 8 10
+Note
+An integer is even if it is divisible by 2
+.
+
+
+D. Print from L to R
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers L
+ and R
+. Print all integers from L
+ to R
+ in increasing order.
+
+Input
+The first line contains two integers L
+ and R
+ (−105≤L≤R≤105
+).
+
+Output
+Print all integers from L
+ to R
+, separated by spaces.
+
+Example
+InputCopy
+3 7
+OutputCopy
+3 4 5 6 7
+
+E. Print All Uppercase Alphabets
+time limit per test1 second
+memory limit per test256 megabytes
+Print all uppercase English alphabets from A to Z using loops.
+
+Input
+There is no input for this problem.
+
+Output
+Print all uppercase English alphabets from A to Z, separated by spaces.
+
+Example
+InputCopy
+There is no input.
+OutputCopy
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+F. Print Table of N
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+. Your task is to print the multiplication table of N
+ from 1
+ to 10
+.
+
+Input
+A single integer N
+ (1≤N≤100)
+.
+
+Output
+Print the table of N
+ in the format shown in the example below.
+
+Example
+InputCopy
+6
+OutputCopy
+6 * 1 = 6
+6 * 2 = 12
+6 * 3 = 18
+6 * 4 = 24
+6 * 5 = 30
+6 * 6 = 36
+6 * 7 = 42
+6 * 8 = 48
+6 * 9 = 54
+6 * 10 = 60
+
+G. Count Numbers
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+ followed by N
+ integers. Count how many of the given numbers are:
+
+Positive
+Negative
+Even
+Odd
+Input
+The first line contains an integer N
+ (1≤N≤105
+).
+
+The second line contains N
+ integers (−109≤Ai≤109
+).
+
+Output
+Print four integers in the following order:
+
+Number of positive integers
+Number of negative integers
+Number of even integers
+Number of odd integers
+Example
+InputCopy
+5
+-2 0 3 7 -5
+OutputCopy
+2
+2
+2
+3
+Note
+Zero is neither positive nor negative.
+Zero is considered an even number.
+
+H. Sum of First N Natural Numbers
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+. Find the sum:
+1+2+3+⋯+N
+
+Input
+The first line contains an integer N
+ (1≤N≤106
+).
+
+Output
+Print a single integer — the sum of the first N
+ natural numbers.
+
+Examples
+InputCopy
+5
+OutputCopy
+15
+InputCopy
+10
+OutputCopy
+55
+Note
+The first 5
+ natural numbers are 1,2,3,4,
+ and 5
+, and their sum is 15
+.
+
+
+I. Factorial
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an integer N
+.
+
+Find the factorial of N
+ by writing a function that takes N
+ as a parameter and returns N!
+, where:
+N!=1×2×3×⋯×N
+
+Input
+The first line contains an integer N
+ (0≤N≤20
+).
+
+Output
+Print the value of N!
+.
+
+Examples
+InputCopy
+5
+OutputCopy
+120
+InputCopy
+7
+OutputCopy
+5040
+Note
+By definition, 0!=1
+.
+The constraint N≤20
+ ensures the answer fits in a 64-bit integer.
+
+xn
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two integers x
+ and n
+.
+
+Compute:
+
+xn=x×x×⋯×xn times
+
+Input
+The first line contains two integers x
+ and n
+ (−10≤x≤10
+, 0≤n≤20
+).
+
+Output
+Print the value of xn
+.
+
+Example
+InputCopy
+2 5
+OutputCopy
+32
+Note
+x0=1
+ for any x
+.
+The constraints ensure the answer fits in a 64-bit integer.
+
+K. Print Number in Reverse
+time limit per test1 s.
+memory limit per test256 MB
+Given an integer N
+, print the digits of N
+ in reverse order.
+
+Input
+A single integer N
+ (0≤N≤1018
+).
+
+Output
+Print the number formed by reversing the digits of N
+.
+
+Examples
+InputCopy
+12349
+OutputCopy
+94321
+InputCopy
+1950
+OutputCopy
+0591
+L. Sum Of Digits
+time limit per test1 second
+memory limit per test256 megabytes
+Given an integer N
+, find the sum of its digits.
+
+Input
+A single integer N
+ (0≤N≤1018
+).
+
+Output
+Print the sum of digits of N
+.
+
+Example
+InputCopy
+1234
+OutputCopy
+10
+
+M. Reverse Number and Store in a Variable
+time limit per test1 second
+memory limit per test256 megabytes
+You are given a non-negative integer N
+.
+
+Reverse the digits of N
+ and store the result in a variable.
+
+Input
+The first line contains a non-negative integer N
+ (0≤N≤109
+).
+
+Output
+Print the result.
+
+Examples
+InputCopy
+1234
+OutputCopy
+4321
+InputCopy
+1950
+OutputCopy
+591
+
+N. Palindrome
+time limit per test1 s.
+memory limit per test256 MB
+You are given a non-negative integer N
+. Check whether N
+ is a palindrome or not.
+
+A number is called a palindrome if it reads the same forwards and backwards.
+
+Input
+The first line contains a non-negative integer N
+ (0≤N≤1018
+).
+
+Output
+Print YES if the number is a palindrome, otherwise print NO.
+
+Examples
+InputCopy
+121
+OutputCopy
+YES
+InputCopy
+1950
+OutputCopy
+NO
+Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+The only programming contests Web 2.0 platform
