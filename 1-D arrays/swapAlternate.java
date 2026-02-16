@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Functions {
+public class 1D_Array {
     public static void main(String[] args) {
       Scanner scn = new Scanner(System.in);
       int tests = scn.nextInt();
