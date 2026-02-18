@@ -20,9 +20,9 @@ public class Strings {
           return;
         }
       }
-      if (str1.length() > str2.length()) {
+      if (str1.length() < str2.length()) {
         System.out.println("A"); 
-      } else if (str1.length() < str2.length()){
+      } else if (str1.length() > str2.length()){
         System.out.println("B");
       } else {
         System.out.println("Equal");
