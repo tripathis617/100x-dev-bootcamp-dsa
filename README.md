@@ -140,3 +140,13 @@ Consolidated Problems Order (by folder)
 	8. Wave - I
 	9. Wave - II
 	10. Boundary Traversal
+
+10. Sorting and Searching
+	1. Linear Search
+	2. Binary Search
+	3. Binary Search (Strings)
+	4. Selection Sort Trace
+	5. Bubble Sort Trace
+	6. Insertion Sort Trace
+	7. Selection Sort v/s Insertion Sort
+	8. Merge Two Sorted Arrays
